@@ -6,17 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabuada</title>
   <style>
-    body {
-      text-align: center;
+    img {
+      height: 300px;
+      width: 300px;
+      float: left;
+      margin-right: 5%;
     }
-
+    input#btMostrar {
+      cursor: pointer;
+    }
+    h1 {
+      border-bottom-style: inset;
+    }
   </style>
 </head>
 <body>
   <img src="numeros.png" alt="Numeros" class="alta">
   <h1>Tabuada Js</h1>
   <p>Numero:
-    <input type="text" id="inNumero">
+    <input type="number" id="inNumero">
   </p>
   <p>
     <input type="button" value="Mostrar tabuada" id="btMostrar">
